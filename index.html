@@ -22,6 +22,7 @@
             Happy Birthday Phương Nhung ❤️❤️❤️
         </div>
         <img src="2600.png" alt="" class="headerIcon">
+        <audio id="audio" src="./sn.mp3"></audio>
     </div>
     <div class="cake">
       <div class="plate"></div>
@@ -139,5 +140,11 @@
     <div id="confetti" class="hiden"></div>
     <script type="text/javascript" src="https://code.jquery.com/jquery-1.11.0.js"></script>
     <script src="script.js"></script>
+     <script>
+        document.body.addEventListener("click", function() {
+             var audio = document.getElementById("audio");
+             audio.play();
+         });
+     </script>
   </body>
 </html>
